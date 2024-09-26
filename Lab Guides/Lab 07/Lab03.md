@@ -1,4 +1,4 @@
-# **Lab 07 – Extending Microsoft Copilot with prompt actions (preview)**
+# **Lab 03 – Extending Microsoft Copilot with prompt actions (preview)**
 
 **Lab duration** – 20 minutes
 
