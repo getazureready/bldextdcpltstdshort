@@ -1,4 +1,4 @@
-# **Lab 08 - Extending Microsoft Copilot with connector actions (preview)**
+# **Lab 04 - Extending Microsoft Copilot with connector actions (preview)**
 
 **Lab duration** – 20 minutes
 
