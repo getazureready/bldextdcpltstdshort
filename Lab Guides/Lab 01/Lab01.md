@@ -941,22 +941,22 @@ can create custom entities for your specific purpose.
 
 1.  Select **Settings** in the top-right of the screen.
 
-    ![](./media/image1.png)
+    ![](./media/imagee1.png)
 
 2.  Select the **Entities** tab. You can see a list of pre-built
     entities.
 
-    ![](./media/image2.png)
+    ![](./media/imagee2.png)
 
 ### Task 2: Create the property type entity
 
 1.  Select **+ Add an entity** and select **+ New entity**.
 
-    ![](./media/image3.png)
+    ![](./media/imagee3.png)
 
 2.  Select the **Closed list** tile.
 
-    ![](./media/image4.png)
+    ![](./media/imagee4.png)
 
 3.  Enter the below details
 
@@ -965,7 +965,7 @@ can create custom entities for your specific purpose.
     **Enter item** under List items
     -    +++**Apartment**+++ - Select **Add**
 
-    ![](./media/image5.png)
+    ![](./media/imagee5.png)
 
 4.  Enter +++**Condominium**+++ in the **Enter item** field and
     select **Add**.
@@ -973,12 +973,12 @@ can create custom entities for your specific purpose.
 5.  Enter +++**Duplex**+++ in the **Enter item** field and
     select **Add**.
 
-    ![](./media/image6.png)
+    ![](./media/imagee6.png)
 
 6.  Select **+ Synonyms** for **Apartment**, enter +++**Flat**+++, then
     select the **+** icon and select **Done**.
 
-    ![](./media/image7.png)
+    ![](./media/imagee7.png)
 
 7.  Select **+ Synonyms** for **House**, enter +++**Single-family
     home**+++, then select the **+** icon and select **Done**.
@@ -989,21 +989,21 @@ can create custom entities for your specific purpose.
 
 9.  Select **Save**.
 
-    ![](./media/image8.png)
+    ![](./media/imagee8.png)
 
 10. Select **Close**.
 
-    ![](./media/image9.png)
+    ![](./media/imagee9.png)
 
 ### Task 3: Create number of bedrooms entity
 
 1.  Select **+ Add an entity** and select **+ New entity**.
 
-    ![](./media/image10.png)
+    ![](./media/imagee10.png)
 
 2.  Select the **Regular expression (Regex)** tile.
 
-    ![](./media/image11.png)
+    ![](./media/imagee11.png)
 
 3.  Enter the below details and click on **Save**.
 
@@ -1011,27 +1011,27 @@ can create custom entities for your specific purpose.
     
     - Pattern  - +++**\[1-5\]**+++ 
 
-    ![](./media/image12.png)
+    ![](./media/imagee12.png)
 
 4.  Select **Close**.
 
-    ![](./media/image13.png)
+    ![](./media/imagee13.png)
 
 5.  Close the **Settings** pane.
 
-    ![](./media/image14.png)
+    ![](./media/imagee14.png)
 
 ### Task 4: Use entities
 
 1.  Select the **Topics** tab. Select the **Book a Real Estate
     Showing** topic.
 
-    ![](./media/image15.png)
+    ![](./media/imagee15.png)
 
 2.  Select the **+** icon above the property question node and
     select **Ask a question**.
 
-    ![](./media/image16.png)
+    ![](./media/imagee16.png)
 
 3.  Fill in the below details.
 
@@ -1042,12 +1042,12 @@ can create custom entities for your specific purpose.
     - Select **Select options for user** and check the **Display** option
       for all list values.
 
-    ![](./media/image17.png)
+    ![](./media/imagee17.png)
 
 4.  Select the variable in **Save user response as** and enter
     +++**PropertyType**+++ for **Variable name**
 
-    ![](./media/image18.png)
+    ![](./media/imagee18.png)
 
 5.  Select the the **+** icon below the new question node and
     select **Ask a question**.
@@ -1061,7 +1061,7 @@ can create custom entities for your specific purpose.
     - **Save user response as** -
       Enter +++NumberofBedrooms+++ for **Variable name**
 
-    ![](./media/image19.png)
+    ![](./media/imagee19.png)
 
 ## Exercise 8: Create Copilot actions
 
@@ -1073,27 +1073,27 @@ Power Automate cloud flows
 1.  Select the **Actions** tab from the top menu. Select **+ Add an
     action**.
 
-    ![](./media/image20.png)
+    ![](./media/imagee20.png)
 
 2.  Scroll down and select **Create a new flow**.
 
-    ![](./media/image21.png)
+    ![](./media/imagee21.png)
 
 3.  Sign in to Power Automate if prompted.
 
 4.  Select **Run a flow from Copilot** in the top-left of the screen and
     enter +++**Get Property**+++ as the flow name.
 
-    ![](./media/image22.png)
+    ![](./media/imagee22.png)
 
 5.  Select the trigger step **Run a flow from Copilot** and select **+
     Add an input**.
 
-    ![](./media/image23.png)
+    ![](./media/imagee23.png)
 
 6.  Select **Text**.
 
-    ![](./media/image24.png)
+    ![](./media/imagee24.png)
 
 7.  Enter the below details
 
@@ -1101,26 +1101,26 @@ Power Automate cloud flows
     
     - **Please enter your input** - +++Number of Bedrooms+++
 
-    ![](./media/image25.png)
+    ![](./media/imagee25.png)
 
 8.  Select the **+** icon between the two steps in the flow and
     select **Add an action**.
 
-    ![](./media/image26.png)
+    ![](./media/imagee26.png)
 
 9.  Enter +++**Dataverse**+++ in the **Search** field and select **See
     more** for the Dataverse connector.
 
-    ![](./media/image27.png)
+    ![](./media/imagee27.png)
 
 10. Select the **List rows** action.
 
-    ![](./media/image28.png)
+    ![](./media/imagee28.png)
 
 11. If prompted for authentication, select **OAuth** and select **Sign
     in**. Sign in using your tenant id if prompted.
 
-    ![](./media/image29.png)
+    ![](./media/imagee29.png)
 
 12. Select **Real Estate Properties** for table name.
 
@@ -1131,12 +1131,12 @@ Power Automate cloud flows
 15. Use **Dynamic content** to select the **Bedrooms** parameter and
     select **Add**.
 
-    ![](./media/image30.png)
+    ![](./media/imagee30.png)
 
 16. Select the **Respond to Copilot** action and select **+ Add an
     output**.
 
-    ![](./media/image31.png)
+    ![](./media/imagee31.png)
 
 17. Select **Text**.
 
@@ -1148,11 +1148,11 @@ Power Automate cloud flows
       enter the following expression:
       +++first(outputs('List_rows')?\['body/value'\])\['contoso_realestatepropertyid'\]+++
 
-    ![](./media/image32.png)
+    ![](./media/imagee32.png)
 
 19. Select **Add**.
 
-    ![](./media/image33.png)
+    ![](./media/imagee33.png)
 
 20. Select **+ Add an output**.
 
@@ -1164,20 +1164,20 @@ Power Automate cloud flows
       enter the following expression:
       +++first(outputs('List_rows')?\['body/value'\])\['contoso_propertyname'\]+++
 
-    ![](./media/image34.png)
+    ![](./media/imagee34.png)
 
 22. Select **Settings**. Ensure that **Asynchronous Response** is set
     to **Off**.
 
-    ![](./media/image35.png)
+    ![](./media/imagee35.png)
 
 23. Select **Save draft**.
 
-    ![](./media/image36.png)
+    ![](./media/imagee36.png)
 
 24. Once save, select **Publish**.
 
-    ![](./media/image37.png)
+    ![](./media/imagee37.png)
 
 25. Close the Power Automate tab.
 
@@ -1185,44 +1185,44 @@ Power Automate cloud flows
 
 1.  Back in the Copilot Studio page, select **Refresh**.
 
-    ![](./media/image38.png)
+    ![](./media/imagee38.png)
 
 2.  Select the **Get Property** flow.
 
-    ![](./media/image39.png)
+    ![](./media/imagee39.png)
 
 3.  Select **Next** in the **Choose an action** screen.
 
-    ![](./media/image40.png)
+    ![](./media/imagee40.png)
 
 4.  Select **Next** in the **Review inputs and outputs** screen.
 
-    ![](./media/image41.png)
+    ![](./media/imagee41.png)
 
 5.  Select **Finish** in the **Review and finish** screen.
 
-    ![](./media/image42.png)
+    ![](./media/imagee42.png)
 
 6.  Select the **Topics** tab. And select the **Book a Real Estate
     Showing** topic.
 
-    ![](./media/image43.png)
+    ![](./media/imagee43.png)
 
 7.  Select the **+** icon below the **How many bedrooms do you need
     question?** node and select **Call an action**. Select the **Get
     Property** flow.
 
-    ![](./media/image44.png)
+    ![](./media/imagee44.png)
 
 8.  Select the **NumberofBedrooms** variable for the **Bedrooms** input
     parameter.
 
-    ![](./media/image45.png)
+    ![](./media/imagee45.png)
 
 9.  Select the **three dots** in the **Which property do you want to
     see?** question node and select **Delete**.
 
-    ![](./media/image46.png)
+    ![](./media/imagee46.png)
 
 10. Select the the **+** icon under the action node and select **Send a
     message**.
@@ -1234,41 +1234,41 @@ Power Automate cloud flows
     - Select the **Insert variable** icon and select
       the **PropertyName** variable.
 
-    ![](./media/image47.png)
+    ![](./media/imagee47.png)
 
 12. Select **Save**.
 
-    ![](./media/image48.png)
+    ![](./media/imagee48.png)
 
 13. Once saved, select **Publish** and select **Publish**.
 
-    ![](./media/image49.png)
+    ![](./media/imagee49.png)
 
 14. Click on Publish in the Publish confirmation dialog.
 
-    ![](./media/image50.png)
+    ![](./media/imagee50.png)
 
 ### Task 3: Create Power Automate flow to make a booking
 
 1.  Select the **Actions** tab and select **+ Add an action**.
 
-    ![](./media/image51.png)
+    ![](./media/imagee51.png)
 
 2.  Scroll down and select **Create a new flow**.
 
-    ![](./media/image52.png)
+    ![](./media/imagee52.png)
 
 3.  Select **Run a flow from Copilot** in the top-left of the screen and
     enter Create +++**Booking Request**+++ as the flow name.
 
-    ![](./media/image53.png)
+    ![](./media/imagee53.png)
 
 4.  Select the trigger step **Run a flow from Copilot** and select **+
     Add an input -\> Text**.
 
-    ![](./media/image54.png)
+    ![](./media/imagee54.png)
 
-    ![](./media/image55.png)
+    ![](./media/imagee55.png)
 
 5.  Enter the below details
 
@@ -1288,21 +1288,21 @@ Power Automate cloud flows
     
     - Please enter your input **-** +++**Viewer Email**+++
 
-    ![](./media/image56.png)
+    ![](./media/imagee56.png)
 
 8.  Select the **+** icon between the two steps in the flow and
     select **Add an action**.
 
-    ![](./media/image57.png)
+    ![](./media/imagee57.png)
 
 9.  Enter +++**Dataverse**+++ in the **Search** field and select **See
     more** for the Dataverse connector.
 
-    ![](./media/image58.png)
+    ![](./media/imagee58.png)
 
 10. Select the **Add a new row** action.
 
-    ![](./media/image59.png)
+    ![](./media/imagee59.png)
 
 11. Select **Booking Requests** for table name.
 
@@ -1310,45 +1310,45 @@ Power Automate cloud flows
 
 13. Select **Show all**.
 
-    ![](./media/image60.png)
+    ![](./media/imagee60.png)
 
 14. Enter +++contoso_bookingrequests()+++ in the **Property (Real Estate
     Properties)** field, move the cursor within the brackets, and
     use **Dynamic content**.
 
-    ![](./media/image61.png)
+    ![](./media/imagee61.png)
 
 15. Select the **PropertyId** parameter.
 
-    ![](./media/image62.png)
+    ![](./media/imagee62.png)
 
 16. Use **Dynamic content** to select the **ViewerName** parameter for
     the **Viewer Name** field.
 
-    ![](./media/image63.png)
+    ![](./media/imagee63.png)
 
 17. Use **Dynamic content** to select the **ViewerEmail** parameter for
     the **Viewer Email** field.
 
-    ![](./media/image64.png)
+    ![](./media/imagee64.png)
 
 18. The parameters will now look similar to those in the screenshot
     below.
 
-    ![](./media/image65.png)
+    ![](./media/imagee65.png)
 
 19. Select the **Respond to Copilot** action. Select **Settings** and
     ensure that **Asynchronous Response** is set to **Off**.
 
-    ![](./media/image66.png)
+    ![](./media/imagee66.png)
 
 20. Select **Save draft**.
 
-    ![](./media/image67.png)
+    ![](./media/imagee67.png)
 
 21. Once saved, select **Publish**.
 
-    ![](./media/image68.png)
+    ![](./media/imagee68.png)
 
 22. Close the Power Automate tab.
 
@@ -1356,35 +1356,35 @@ Power Automate cloud flows
 
 1.  Back in the Copilot Studio page, select **Refresh**.
 
-    ![](./media/image69.png)
+    ![](./media/imagee69.png)
 
 2.  Select the **Create Booking Request** flow.
 
-    ![](./media/image70.png)
+    ![](./media/imagee70.png)
 
 3.  Select **Next** in the Choose an option screen.
 
-    ![](./media/image71.png)
+    ![](./media/imagee71.png)
 
 4.  Select **Next** in the Review inputs and outputs .
 
-    ![](./media/image72.png)
+    ![](./media/imagee72.png)
 
 5.  Select **Finish** in the **Review and finish** screen.
 
-    ![](./media/image73.png)
+    ![](./media/imagee73.png)
 
 6.  Select the **Topics** tab and select the **Book a Real Estate
     Showing** topic.
 
-    ![](./media/image74.png)
+    ![](./media/imagee74.png)
 
 7.  Select the the **+** icon below the **What date and time do you want
     to see the property?** node and select **Call an action**.
 
 8.  Select the **Booking Request** flow.
 
-    ![](./media/image75.png)
+    ![](./media/imagee75.png)
 
 9.  Select the **PropertyId** variable for the **PropertyId** input
     parameter.
@@ -1394,24 +1394,24 @@ Power Automate cloud flows
     Select the **EmailAddress** variable for the **ViewerEmail** input
 parameter.
 
-    ![](./media/image76.png)
+    ![](./media/imagee76.png)
 
 10. Select the the **+** icon below the action node. Select **Topic
     management**, then select **Go to another topic** and select **End
     of conversation**.
 
-    ![](./media/image77.png)
+    ![](./media/imagee77.png)
 
 11. Select **Save**.
 
-    ![](./media/image78.png)
+    ![](./media/imagee78.png)
 
 12. Once saved, select **Publish** and select **Publish** again in the
     confirmation dialog.
 
-    ![](./media/image79.png)
+    ![](./media/imagee79.png)
 
-    ![](./media/image80.png)
+    ![](./media/imagee80.png)
 
 ## Exercise 9: Test the copilot 
 
@@ -1422,7 +1422,7 @@ parameter.
     testing panel in the top-right of the screen. Select **Track between
     topics**.
 
-    ![](./media/image81.png)
+    ![](./media/imagee81.png)
 
 2.  When the **Conversation Start** message appears, your copilot starts
     a conversation.
@@ -1438,20 +1438,20 @@ parameter.
 
 6.  Enter your name.
 
-    ![](./media/image82.png)
+    ![](./media/imagee82.png)
 
 7.  Then enter your email when it prompts for the email. After you enter
     the details, an Adaptive Card displays the information that you
     entered, a question asking if the information is correct, and
     options to select **Yes** or **No**. Select **Yes**.
 
-    ![](./media/image83.png)
+    ![](./media/imagee83.png)
 
 8.  Select **House** for the type of property prompt.
 
 9.  Enter +++**2**+++ for the number of bedrooms prompts.
 
-    ![](./media/image84.png)
+    ![](./media/imagee84.png)
 
 10. Enter Tomorrow 2:00 PM to the **What date and time do you want to
     see the property?** prompt.
@@ -1462,7 +1462,7 @@ parameter.
 
 13. Select **No** to the **Can I help with anything else?** prompt.
 
-    ![](./media/image85.png)
+    ![](./media/imagee85.png)
 
 ### Task 2: Verify booking request
 
@@ -1474,12 +1474,12 @@ parameter.
 
 3.  Select the **Booking Request** table.
 
-    ![](./media/image86.png)
+    ![](./media/imagee86.png)
 
 4.  Under **Booking Request columns and data** you should see that a
     Copilot booking request is now created.
 
-    ![](./media/image87.png)
+    ![](./media/imagee87.png)
 
 ## Exercise 10: Set up Generative AI
 
@@ -1494,11 +1494,11 @@ improve your copilot's responses.
 
 2.  Select the Copilot **Real Estate Booking Service**.
 
-    ![](./media/image88.png)
+    ![](./media/imagee88.png)
 
 3.  Select **Settings** in the top-right of the screen.
 
-    ![](./media/image89.png)
+    ![](./media/imagee89.png)
 
 4.  Select the **Generative AI** tab.
    
@@ -1506,11 +1506,11 @@ improve your copilot's responses.
     -    Select **Medium** for **Copilot content moderation**.
     -    Select **Save**.
     -    
-    ![](./media/image90.png)
+    ![](./media/imagee90.png)
 
 5.  **Close** the Settings pane.
 
-    ![](./media/image91.png)
+    ![](./media/imagee91.png)
 
 ### Task 2: Enable knowledge
 
@@ -1519,110 +1519,110 @@ improve your copilot's responses.
 
 2.  Verify that general knowledge is enabled in the Knowledge section.
 
-    ![](./media/image92.png)
+    ![](./media/imagee92.png)
 
 ### Task 3: Add knowledge from a website
 
 1.  Select **+ Add knowledge** under the **Knowledge** section in the
     Overview page of the copilot.
 
-    ![](./media/image93.png)
+    ![](./media/imagee93.png)
 
 2.  Select the **Public websites** tile.
 
-    ![](./media/image94.png)
+    ![](./media/imagee94.png)
 
 3.  Enter the public website
     link +++https://create.microsoft.com/templates/real-estate+++.
     Select **Add**.
 
-    ![](./media/image95.png)
+    ![](./media/imagee95.png)
 
 4.  Give the name +++Real Estate Website+++ in the Name field and then
     select **Add**.
 
-    ![](./media/image96.png)
+    ![](./media/imagee96.png)
 
 ### Task 4: Add knowledge from Dataverse
 
 1.  Select the **Knowledge** tab. Select **+ Add knowledge**.
 
-    ![](./media/image97.png)
+    ![](./media/imagee97.png)
 
 2.  Select **Dataverse**.
 
-    ![](./media/image98.png)
+    ![](./media/imagee98.png)
 
 3.  Select the **Real Estate Property** table and select **Next**.
 
-    ![](./media/image99.png)
+    ![](./media/imagee99.png)
 
 4.  Preview the data in the next screen and then select **Next**.
 
-    ![](./media/image100.png)
+    ![](./media/imagee100.png)
 
 5.  Review the details and click on **Add** in the Review and finish
     screen.
 
-    ![](./media/image101.png)
+    ![](./media/imagee101.png)
 
 ### Task 5: Add knowledge from files
 
 1.  From the **Knowledge** tab, select **+ Add knowledge**.
 
-    ![](./media/image102.png)
+    ![](./media/imagee102.png)
 
 2.  Select **Files**.
 
-    ![](./media/image103.png)
+    ![](./media/imagee103.png)
 
 3.  Select Click to browse and browse to locate the file
     **SummitRealtyCaseStudy.docx** at **C:\LabFiles** and select it.
 
-    ![](./media/image104.png)
+    ![](./media/imagee104.png)
 
 4.  Select **Add**.
 
-    ![](./media/image105.png)
+    ![](./media/imagee105.png)
 
 ### Task 6: Use generative answers in System fallback topic
 
 1.  Select the **Topics** tab and select **System**. Select
     the **Fallback** topic.
 
-    ![](./media/image106.png)
+    ![](./media/imagee106.png)
 
 2.  Select the **three dots** in the message node and select **Delete**.
 
-    ![](./media/image107.png)
+    ![](./media/imagee107.png)
 
 3.  Select the **+** icon under the Condition node, select **Advanced**,
     and select **Generative answers**.
 
-    ![](./media/image108.png)
+    ![](./media/imagee108.png)
 
 4.  Select the **Input** field, select **System** in the **Select a
     variable** pane. Select **Activity.Text** from it.
 
-    ![](./media/image109.png)
+    ![](./media/imagee109.png)
 
 5.  Select **Edit** under **Data sources**.
 
-    ![](./media/image110.png)
+    ![](./media/imagee110.png)
 
 6.  Select **Search only selected sources**.
 
-    ![](./media/image111.png)
+    ![](./media/imagee111.png)
 
 7.  Select the **SummitRealtyCaseStudy** document. Deselect **Allow the
     AI to use its own general knowledge**.
     Select **Medium** for **Content moderation**.
 
-    ![](./media/image112.png)
+    ![](./media/imagee112.png)
 
 8.  Select **Save**.
 
-    ![](./media/image113.png)
+    ![](./media/imagee113.png)
 
 ### Task 7: Configure Security
 
@@ -1633,58 +1633,58 @@ improve your copilot's responses.
     Channels is not visible, click on the +1 to view the **Channels**
     option)
 
-    ![](./media/image114.png)
+    ![](./media/imagee114.png)
 
 3.  Select **Dynamics 365 Customer Service** from the Customer
     engagement hub pane.
 
-    ![](./media/image115.png)
+    ![](./media/imagee115.png)
 
 4.  On the Dynamics 365 Customer Service page, click on **Disconnect**.
 
-    ![](./media/image116.png)
+    ![](./media/imagee116.png)
 
 5.  Once done, **close** the Dynamics 365 Customer Service pane.
 
-    ![](./media/image117.png)
+    ![](./media/imagee117.png)
 
 6.  Select **Settings** in the top-right of the screen.
 
-    ![](./media/image118.png)
+    ![](./media/imagee118.png)
 
 7.  Select the **Security** tab and then select
     the **Authentication** tile.
 
-    ![](./media/image119.png)
+    ![](./media/imagee119.png)
 
 8.  Select Authenticate with Microsoft **(Entra ID authentication in
     Teams and Power App)**.
 
 9.  Select **Save**.
 
-    ![](./media/image120.png)
+    ![](./media/imagee120.png)
 
 10. Select **Save**.
 
-    ![](./media/image121.png)
+    ![](./media/imagee121.png)
 
 11. Select **Close**.
 
-    ![](./media/image122.png)
+    ![](./media/imagee122.png)
 
 12. Select your copilot in the Copilot pane on the left-hand side of the
     screen to return to the **Overview** tab.
 
 13. Select **Publish** and select **Publish**.
 
-    ![](./media/image123.png)
+    ![](./media/imagee123.png)
 
 ### Task 8: Test the copilot's knowledge
 
 1.  Select the **Test** button in the top-right of the screen to open
     the testing panel.
 
-    ![](./media/image124.png
+    ![](./media/imagee124.png
     )
 
 3.  Select the **three dots** at the top of the testing panel in the
